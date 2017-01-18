@@ -31,7 +31,7 @@ int main (int argc, char *argv[])
 	// read input file and assign member values
 	read_input_file(FILE_INPUT, &U);
 
-	//UTA.print_members();
+	//U.print_members();
 	U.compute_mount_loads();
 	U.compute_required_deflection();
 
