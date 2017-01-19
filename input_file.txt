@@ -1,0 +1,19 @@
+total_weight= 12500.0
+min_freq= 30.0
+isolation_c= 97.0
+components_no= 4
+mounts_no= 6
+# mounts position in (x [in mm], y [in mm])
+# example: 0 1
+0 0
+0 1350
+1945 0
+1945 1350
+3117 0
+3117 1350
+# components' list (x [in mm], y [in mm], weight [in kg], tipo [1 if point mass, 2 if distributed load])
+# es: 1 1 950 1
+734 675 6750 1
+3030 675 4000 1
+1617 675 1050 2
+1617 675 700 2
